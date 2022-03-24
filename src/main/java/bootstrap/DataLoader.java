@@ -2,6 +2,8 @@ package bootstrap;
 
 import model.Password;
 import model.SomeClass;
+import model.ExtendedPassword;
+import model.SIBTest;
 
 public class DataLoader {
 
@@ -26,6 +28,7 @@ public class DataLoader {
         password.letMeIn(0);
         password.letMeIn(-1);
         password.letMeIn(674312);
+
 
         int pwExtended = 674312;
         Password passwordExtended = new ExtendedPassword(pwExtended);
