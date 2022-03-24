@@ -28,7 +28,7 @@ public class DataLoader {
         password.letMeIn(674312);
 
         int pwExtended = 674312;
-        Password passwordExtended = new ExtendedPassword()Password(pw);
+        Password passwordExtended = new ExtendedPassword(pw);
         passwordExtended.storePassword();
 
         passwordExtended.letMeIn(1);
