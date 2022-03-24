@@ -10,7 +10,7 @@ public class Password {
     }
 
     private int encryptDecrypt(int password) {
-        return password ^ KEY;
+        return password ^ KEY; // <- XOR = ^
     }
 
     public void storePassword() {
