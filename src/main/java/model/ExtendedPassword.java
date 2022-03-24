@@ -1,6 +1,7 @@
-package com.timbuchalka;
+package model;
 
 public class ExtendedPassword extends Password {
+
     private int decryptedPassword;
 
     public ExtendedPassword(int password) {

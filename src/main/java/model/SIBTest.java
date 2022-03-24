@@ -1,5 +1,4 @@
-package com.timbuchalka;
-
+package model;
 
 public class SIBTest {
     public static final String owner;

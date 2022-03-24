@@ -26,5 +26,21 @@ public class DataLoader {
         password.letMeIn(0);
         password.letMeIn(-1);
         password.letMeIn(674312);
+
+        int pwExtended = 674312;
+        Password passwordExtended = new ExtendedPassword()Password(pw);
+        passwordExtended.storePassword();
+
+        passwordExtended.letMeIn(1);
+        passwordExtended.letMeIn(523266);
+        passwordExtended.letMeIn(9773);
+        passwordExtended.letMeIn(0);
+        passwordExtended.letMeIn(-1);
+        passwordExtended.letMeIn(674312);
+
+        System.out.println("Main method called");
+        SIBTest test = new SIBTest();
+        test.someMethod();
+        System.out.println("Owner is " + SIBTest.owner);
     }
 }
